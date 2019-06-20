@@ -1,0 +1,525 @@
+<?php
+
+/*
+Chinese.lang.txt - for SolusVM Client Area
+Translate by: Akkariin Meiko
+Created on: 2019/06/20
+https://blog.natfrp.org/
+*/
+
+#<-- Encoding -->#
+$_lang["charset"] = "utf-8";
+
+#<-- General --># 
+$_lang["pagetitle"] = "VPS 控制面板";
+$_lang["headerfirst"] = "VPS";
+$_lang["headerlast"] = "控制面板";
+$_lang["headerslogan"] = "虚拟机管理系统";
+$_lang["headerselectgroup"] = "-- 实例 --";
+$_lang["logoutalert"] = "你确定要登出吗？";
+$_lang["logoutalertyes"] = "是";
+$_lang["logoutalertno"] = "否";
+$_lang["welcomeback"] = "欢迎回来";
+$_lang["menumyaccount"] = "账户信息";
+$_lang["menuhome"] = "主页";
+$_lang["logout"] = "登出";
+$_lang["processlock"] = "该实例已有一个进程正在执行，请等待执行完成";
+$_lang["backbutton"] = "返回";
+
+#<-- Login --># 
+$_lang["loginboxheader"] = "登录";
+$_lang["loginblacklist"] = "你的 IP 已经被列入黑名单，请联系客服";
+$_lang["loginfailed"] = "无效的账号或密码";
+$_lang["loginusername"] = "账号";
+$_lang["loginpassword"] = "密码";
+$_lang["loginbutton"] = "登录";
+$_lang["loginforgotpassword"] = "忘记了密码？";
+
+#<-- Home --># 
+$_lang["homenovirtualservers"] = "没有找到实例";
+$_lang["homeheader"] = "虚拟机实例";
+$_lang["homemanagebutton"] = "管理";
+$_lang["homevservertype"] = "VT";
+$_lang["homevserverhostname"] = "主机名称";
+$_lang["homevserveripaddress"] = "IP 地址";
+$_lang["homevserverbandwidth"] = "流量";
+$_lang["homevserveroperatingsystem"] = "操作系统";
+$_lang["homevservermemory"] = "内存";
+$_lang["homevserverdisk"] = "硬盘";
+
+#<-- Account --># 
+$_lang["accountspecifycurrentpass"] = "你必须指定你当前的密码";
+$_lang["accountpasstooshort"] = "您的新密码长度必须为6个字符或更长";
+$_lang["accountpassnotmatch"] = "您的新密码不匹配";
+$_lang["accountpasssuccess"] = "密码已成功更新";
+$_lang["accountfirstnameshort"] = "名字的长度必须超过2个字符";
+$_lang["accountlastnameshort"] = "姓氏长度必须超过2个字符";
+$_lang["accountinvalidemail"] = "无效的电子邮件地址";
+$_lang["accountsettingssuccess"] = "设置已成功更新";
+$_lang["accountheader"] = "账户设置";
+$_lang["accountfirstname"] = "名字";
+$_lang["accountlastname"] = "姓氏";
+$_lang["accountemailaddress"] = "邮箱";
+$_lang["accountcompany"] = "公司";
+$_lang["accountlanguage"] = "语言";
+$_lang["accountloginalert"] = "登录提醒";
+$_lang["accountupdatesettingsbutton"] = "更新设置";
+$_lang["accountchangeaccountpassword"] = "更改密码";
+$_lang["accountcurrentpassword"] = "当前密码";
+$_lang["accountnewpassword"] = "新的密码";
+$_lang["accountrepeatnewpassword"] = "确认密码";
+$_lang["accountupdatepasswordbutton"] = "更改密码";
+
+#<-- Reinstall --># 
+$_lang["reinstallbutton"] = "重装系统";
+$_lang["reinstallheader"] = "重装系统";
+$_lang["reinstallboxtitle"] = "重装实例的操作系统";
+$_lang["reinstallboxmsg"] = "你确定要重装这个实例的操作系统？";
+$_lang["reinstallnomediafound"] = "未找到任何可用的系统模板或 ISO";
+$_lang["reinstallsuccess"] = "安装程序已开始执行，这可能需要 10 分钟左右";
+$_lang["reinstalltemplatenotfound"] = "此模板暂时不可用";
+$_lang["reinstallvtnotsupported"] = "你的实例虚拟化不支持此功能";
+
+#<-- Log -->#
+$_lang["logheader"] = "日志";
+$_lang["logdate"] = "时间";
+$_lang["logaction"] = "操作";
+$_lang["logip"] = "IP 地址";
+$_lang["logstatus"] = "状态";
+$_lang["lognodata"] = "未找到日志";
+
+#<-- Remote -->#
+$_lang["consoleheader"] = "串行控制台";
+$_lang["vncheader"] = "VNC 查看";
+$_lang["vncrefreshbutton"] = "刷新";
+$_lang["viewconnectsettings"] = "查看连接设定";
+$_lang["connectionip"] = "地址";
+$_lang["connectionport"] = "端口";
+$_lang["connectionusername"] = "账号";
+$_lang["connectionpassword"] = "密码";
+
+#<-- RDNS -->#
+$_lang["rdnsmanualmsg"] = "反向 DNS 在此 IP 地址上已禁用，请联系客服";
+$_lang["rdnsinvalidhostname"] = "无效的反向 DNS 条目";
+$_lang["rdnssuccessmsg"] = "反向 DNS 条目已更新";
+$_lang["rdnsphrase"] = "编辑反向 DNS 条目";
+$_lang["rdnsupdatebutton"] = "更新";
+$_lang["rdnsclosewindowbutton"] = "关闭";
+
+#<-- IPinfo -->#
+$_lang["ipinfoipaddress"] = "IP 地址";
+$_lang["ipinfogateway"] = "网关";
+$_lang["ipinfonetmask"] = "子网掩码";
+$_lang["ipinfonameserver"] = "DNS 服务器";
+$_lang["ipinfoclosewindowbutton"] = "关闭";
+
+#<-- Central Backup --># 
+$_lang["centralbackupconfirmrestore"] = "当前实例上的所有数据都将被销毁\n您确定要继续吗？";
+$_lang["centralbackupconfirmdelete"] = "备份将被删除\n您确定要继续吗？";
+$_lang["centralbackupheader"] = "中央备份";
+$_lang["centralbackupdate"] = "日期";
+$_lang["centralbackupfilename"] = "文件名";
+$_lang["centralbackupserver"] = "服务器";
+$_lang["centralbackupstatus"] = "状态";
+$_lang["centralbackuprestorebutton"] = "恢复";
+$_lang["centralbackupdeletebutton"] = "删除";
+$_lang["centralbacknobackups"] = "未找到备份";
+$_lang["centralbackupcreatebutton"] = "创建备份";
+$_lang["centralbackupsuccess"] = "备份已添加到队列中";
+$_lang["centralbackupsuccessrestore"] = "恢复已添加到队列中";
+$_lang["centralbackupnocredits"] = "备份系统不可用";
+$_lang["centralbackupnovt"] = "不支持此虚拟化类型";
+
+#<-- Lost Password --># 
+$_lang["lostpasswordverifilogin"] = "登录 >>";
+$_lang["lostpasswordmsgsendpass"] = "我们已经将新的密码发送至您的邮箱";
+$_lang["lostpasswordmsginvalidcode"] = "验证码不正确";
+$_lang["lostpasswordmsgsentmail"] = "我们已经为该账户的邮箱发送了一份验证邮件";
+$_lang["lostpasswordmsgusernotfound"] = "未找到您输入的用户名";
+$_lang["lostpasswordmsgblacklisted"] = "您已被列入黑名单，请联系客服";
+$_lang["lostpasswordheader"] = "忘记密码";
+$_lang["lostpasswordusername"] = "用户名";
+$_lang["lostpasswordbutton"] = "确定";
+$_lang["lostpasswordbacklink"] = "返回登录页";
+
+#<-- System Error --># 
+$_lang["systemerrorheader"] = "系统错误";
+$_lang["systemerrormsg"] = "发生了内部服务器错误<br />此错误已被记录，如果问题持续存在，请联系客服";
+$_lang["systemerrorreset"] = "单击此处重置会话";
+
+#<-- Control --># 
+$_lang["vserverreinstallbutton"] = "重装系统";
+$_lang["vservervncbutton"] = "VNC";
+$_lang["vserverconsolebutton"] = "串行控制台";
+$_lang["vserverlogbutton"] = "日志";
+$_lang["vservertabhostname"] = "主机名";
+$_lang["vservercentralbackupbutton"] = "中央备份";
+$_lang["vserverlabelnewhostname"] = "新的主机名";
+$_lang["vserverchangehostnamebutton"] = "修改";
+$_lang["vserverhostnamechanged"] = "主机名已更新";
+$_lang["vserverhostnamechangedreboot"] = "主机名已更新，您需要重新启动实例才会生效";
+$_lang["vserverhostnameforreference"] = "主机名更新仅供参考";
+$_lang["vservernotvalidhostname"] = "无效的主机名";
+$_lang["vservertabrootpassword"] = "操作系统密码";
+$_lang["vserverlabelnewrootpassword"] = "新的密码";
+$_lang["vserverchangerootpasswordbutton"] = "修改";
+$_lang["vserverrootpasswordchanged"] = "密码已更新";
+$_lang["vserverrootpasswordchangedreboot"] = "密码已更新，您需要重新启动实例才会生效";
+$_lang["vservernotvalidrootpassword"] = "无效的密码";
+$_lang["vservertabconsolepassword"] = "控制台密码";
+$_lang["vserverlabelnewconsolepassword"] = "新的控制台密码";
+$_lang["vserverchangeconsolepasswordbutton"] = "修改";
+$_lang["vserverconsolepasswordchanged"] = "控制台密码已更新";
+$_lang["vserverconsolepasswordchangedreboot"] = "控制台密码已更新，您需要重新启动实例才会生效";
+$_lang["vservernotvalidconsolepassword"] = "Invalid Console Password";
+$_lang["vservertabvncpassword"] = "VNC 密码";
+$_lang["vserverlabelnewvncpassword"] = "新的 VNC 密码";
+$_lang["vserverchangevncpasswordbutton"] = "修改";
+$_lang["vservervncpasswordchangedreboot"] = "VNC 密码已更新，您需要重新启动实例才会生效";
+$_lang["vservernotvalidvncpassword"] = "无效的 VNC 密码";
+$_lang["vservertabapi"] = "API";
+$_lang["vserverapikey"] = "API 密钥";
+$_lang["vserverapihash"] = "API 哈希";
+$_lang["vserverapistatus"] = "API 状态";
+$_lang["vserverapikeybutton"] = "生成";
+$_lang["vserverapinone"] = "未找到 API 设置，您可以点击下面的按钮生成 API 设置";
+$_lang["vservertabsettings"] = "设置";
+$_lang["vserverlabelsettingsapic"] = "APIC";
+$_lang["vserverlabelsettingsacpi"] = "ACPI";
+$_lang["vserverlabelsettingsvnc"] = "VNC";
+$_lang["vserverlabelsettingspae"] = "PAE";
+$_lang["vserverlabelsettingsboot"] = "启动顺序";
+$_lang["vserversettingsupdatesuccess"] = "设置已更新，您需要重新启动实例才会生效";
+$_lang["vservermountsuccess"] = "CDROM 已挂载，您需要重新启动实例才会生效";
+$_lang["vserverunmountsuccess"] = "CDROM 已卸载，您需要重新启动实例才会生效";
+$_lang["vserversettingsbuttonon"] = "启用";
+$_lang["vserversettingsbuttonoff"] = "禁用";
+$_lang["vserversettingsbuttonset"] = "设置";
+$_lang["vserversettingsbordercdrom"] = "CDROM";
+$_lang["vserversettingsborderharddisk"] = "硬盘";
+$_lang["vserversettingsborderonly"] = "[仅限]";
+$_lang["vservertabcdrom"] = "CDROM";
+$_lang["vservercdrommounted"] = "已挂载";
+$_lang["vservercdromselect"] = "选择";
+$_lang["vservercdrommountbutton"] = "挂载";
+$_lang["vservercdromunmountbutton"] = "卸载";
+$_lang["vservertabquickbackup"] = "快速备份";
+$_lang["vserverquickbackupbutton"] = "创建";
+$_lang["vserverquickbackuptxt"] = "快速备份允许您创建实例的快照";
+$_lang["quickbackupsuccess"] = "快速备份成功";
+$_lang["quickbackupmsgtooshort"] = "快速备份只能每 24 小时运行一次";
+$_lang["vservertabipaddress"] = "网络";
+$_lang["vservermainipset"] = "设置主 IP 地址";
+$_lang["vserveripv4iplabel"] = "IP 地址";
+$_lang["vserveripv4dnslabel"] = "反向 DNS";
+$_lang["vservermainipchangesuccess"] = "主 IP 地址已更新";
+$_lang["vservermainipchangesuccessreboot"] = "主 IP 地址已更新，您需要重新启动实例才会生效";
+$_lang["vservernordnsset"] = "[编辑]";
+$_lang["vserverdisableipv6button"] = "禁用";
+$_lang["vserverenableipv6button"] = "启用";
+$_lang["vserverenableipv6reboot"] = "IP 地址已启用，您需要重新启动实例才会生效";
+$_lang["vserverdisableipv6reboot"] = "IP 已禁用，您需要重新启动实例才会生效";
+$_lang["vserveripv4actionlabel"] = "操作";
+$_lang["vserveripv6actionlabel"] = "操作";
+$_lang["vserveripv6iplabel"] = "IP 地址";
+$_lang["vservershutdown"] = "实例已关机";
+$_lang["vserverboot"] = "实例已启动";
+$_lang["vserverreboot"] = "实例已重启";
+$_lang["vserverpoweroff"] = "实例电源已关闭";
+$_lang["vserverpoweroffboxtitle"] = "关闭实例电源";
+$_lang["vserverpoweroffboxmsg"] = "你确定要关闭此实例的电源？";
+$_lang["vserverchangeownerboxtitle"] = "修改实例所有者";
+$_lang["vserverchangeownerboxmsg"] = "你确定要修改此实例的所有者？";
+$_lang["vserverrebootboxtitle"] = "重启实例";
+$_lang["vserverrebootboxmsg"] = "你确定要重启此实例？";
+$_lang["vserverbootboxtitle"] = "启动实例";
+$_lang["vserverbootboxmsg"] = "你确定要启动此实例？";
+$_lang["vservershutdownboxtitle"] = "关闭实例";
+$_lang["vservershutdownboxmsg"] = "你确定要关闭此实例？";
+$_lang["vserveralertyes"] = "是";
+$_lang["vserveralertno"] = "否";
+$_lang["vserversuspendedbyadmin"] = "此实例已被管理员暂停，请联系客服";
+$_lang["vserverstateonline"] = "运行中";
+$_lang["vserverstateoffline"] = "已关机";
+$_lang["vserverstatuslabel"] = "状态";
+$_lang["vserverhostnamelabel"] = "主机名";
+$_lang["vserveripaddresslabel"] = "IP 地址";
+$_lang["vserveroperatingsystemlabel"] = "操作系统";
+$_lang["vserveripv4label"] = "IPv4 地址";
+$_lang["vserveripv6label"] = "IPv6 地址";
+$_lang["vservernodelabel"] = "节点";
+$_lang["vserverswaplabel"] = "交换内存";
+$_lang["vservervswaplabel"] = "虚拟内存";
+$_lang["vserverburstlabel"] = "Burst";
+$_lang["vserverdiskspacelabel"] = "磁盘空间";
+$_lang["vserverbandwidthlabel"] = "流量";
+$_lang["vservervtlabel"] = "虚拟化类型";
+$_lang["vservermemorylabel"] = "内存";
+$_lang["vserverrefreshbutton"] = "刷新数据";
+$_lang["vserverbandwidthusagelabel"] = "流量已使用";
+$_lang["vservervswapusagelabel"] = "虚拟内存已使用";
+$_lang["vservermemoryusagelabel"] = "内存已使用";
+$_lang["vserverdiskusagelabel"] = "硬盘已使用";
+$_lang["vserverbarused"] = "已使用";
+$_lang["vserverbarfree"] = "空闲";
+$_lang["vserverbarof"] = "于";
+$_lang["vservertabcontrols"] = "控制";
+$_lang["vservertabgeneral"] = "生成";
+$_lang["vserverrebootbutton"] = "重启实例";
+$_lang["vserverbootbutton"] = "启动实例";
+$_lang["vservershutdownbutton"] = "关闭实例";
+$_lang["vserversuspendbutton"] = "暂停实例";
+$_lang["vserverpoweroffbutton"] = "断开电源";
+$_lang["vserveripv4assigned"] = "IPv4";
+$_lang["vserveripv6assigned"] = "IPv6";
+$_lang["vservertabstatistics"] = "统计信息";
+$_lang["vserverstatselect"] = "选择一个时间段";
+$_lang["vserverstatselectnone"] = "--选择--";
+$_lang["vserverstathour"] = "小时";
+$_lang["vserverstathours"] = "小时";
+$_lang["vserverstatday"] = "天";
+$_lang["vserverstatdays"] = "天";
+$_lang["vserverstatweek"] = "星期";
+$_lang["vserverstatweeks"] = "星期";
+$_lang["vserverstatmonth"] = "月";
+$_lang["vserverstatmonths"] = "月";
+$_lang["vserverstatyear"] = "年";
+$_lang["vserverpxeenabled"] = "网络启动在此实例上已启用";
+$_lang["vserverpxebuttonenable"] = "启用网络启动";
+$_lang["vserverpxebuttondisable"] = "禁用网络启动";
+$_lang["vserverpxedisableboxtitle"] = "禁用网络启动";
+$_lang["vserverpxedisableboxmsg"] = "禁用网络启动需要重启实例，您确定吗？";
+$_lang["vserverpxeenableboxtitle"] = "启用网络启动";
+$_lang["vserverpxeenableboxmsg"] = "启用网络启动需要重启实例，您确定吗？";
+$_lang["vserverpxeenablesuccess"] = "网络启动已启用，打开 VNC 会话以访问远程网络";
+$_lang["vserverpxedisablesuccess"] = "网络启动已禁用，实例正在重启";
+
+#<-- Added 1.10.00 -->#
+$_lang["vserverdisabletunbutton"] = "禁用 TUN/TAP";
+$_lang["vserverenabletunbutton"] = "启用 TUN/TAP";
+$_lang["vservertundisableboxtitle"] = "禁用 TUN/TAP";
+$_lang["vservertundisableboxmsg"] = "您确定要执行此操作吗？";
+$_lang["vservertunenableboxtitle"] = "启用 TUN/TAP";
+$_lang["vservertunenableboxmsg"] = "您确定要执行此操作吗？";
+$_lang["vservertunenablesuccess"] = "TUN/TAP 已启用";
+$_lang["vservertundisablesuccess"] = "TUN/TAP 已禁用";
+$_lang["vserverdisablepppbutton"] = "禁用 PPP";
+$_lang["vserverenablepppbutton"] = "启用 PPP";
+$_lang["vserverpppdisableboxtitle"] = "禁用 PPP";
+$_lang["vserverpppdisableboxmsg"] = "禁用 PPP 需要重启实例，您确定要执行此操作吗？";
+$_lang["vserverpppenableboxtitle"] = "启用 PPP";
+$_lang["vserverpppenableboxmsg"] = "启用 PPP 需要重启实例，您确定要执行此操作吗？";
+$_lang["vserverpppenablesuccess"] = "PPP 已启用";
+$_lang["vserverpppdisablesuccess"] = "PPP 已禁用";
+$_lang["vserverlabelsettingsnic"] = "网卡";
+$_lang["vserversettingsupdatenicsuccess"] = "网卡已更新，您需要重新启动实例才能生效";
+$_lang["vservertabresources"] = "资源使用情况";
+$_lang["vservertabnic"] = "网卡";
+$_lang["vservertabinformation"] = "信息";
+$_lang["vservertabcdrom"] = "CDROM";
+$_lang["rdnsconnectpdns"] = "无法连接至 DNS 服务器，请稍后重试";
+$_lang["rdnsnoarecord"] = "无法在你的域名 DNS 中找到 A 记录";
+$_lang["rdnsnoaaaarecord"] = "无法在你的域名 DNS 中找到 AAAA 记录";
+$_lang["menuvps"] = "实例";
+$_lang["menudns"] = "DNS";
+$_lang["dnsdomainbutton"] = "管理";
+$_lang["dnsdomainheader"] = "域名";
+$_lang["dnsdomaintabledomain"] = "域名";
+$_lang["dnsdomaintablerecords"] = "记录";
+$_lang["dnsdomaintablens"] = "DNS 服务器";
+$_lang["dnsdomainnodomains"] = "未找到域名";
+$_lang["dnsdomainaddheader"] = "添加新的域名";
+$_lang["dnsdomainaddbutton"] = "添加";
+$_lang["dnserrordomainlimit"] = "无法添加域名，你已达到你可以添加的域名上限";
+$_lang["dnserrordbnoc"] = "DNS 不可用，错误代码：DNS-9845";
+$_lang["dnserrordb"] = "DNS 不可用，错误代码：DNS-4211";
+$_lang["dnserrornodnslist"] = "DNS 不可用，错误代码：DNS-3674";
+$_lang["dnssuccessdomainadded"] = "域名已添加";
+$_lang["dnserrordomnotadded"] = "域名无法添加";
+$_lang["dnserrordomexists"] = "此域名已经存在于系统中";
+$_lang["dnserrorinvalidtld"] = "无效的 TLD";
+$_lang["dnserrorinvaliddomain"] = "无效的域名";
+$_lang["dnsrecordsaheader"] = "A 记录";
+$_lang["dnsrecordstabledomain"] = "域名";
+$_lang["dnsrecordstablettl"] = "TTL";
+$_lang["dnsrecordstableip"] = "IP 地址";
+$_lang["dnsrecorddeletebutton"] = "删除";
+$_lang["dnsrecordsaaaaheader"] = "AAAA 记录";
+$_lang["dnssuccessrecordadded"] = "记录已添加";
+$_lang["dnserrorrecordexists"] = "记录已存在";
+$_lang["dnserrorrecordinvalidttl"] = "无效的 TTL";
+$_lang["dnserrorrecordinvalidip"] = "无效的 IP 地址";
+$_lang["dnssuccessrecorddeleted"] = "记录已删除";
+$_lang["dnsrecordslabel"] = "记录";
+$_lang["dnsnameserverslabel"] = "DNS 服务器";
+$_lang["dnsrecordsnsheader"] = "NS 记录";
+$_lang["dnsrecordstablenameserver"] = "DNS 服务器";
+$_lang["dnsrecordstablesubdomain"] = "域名";
+$_lang["dnserrorrecordinvalidns"] = "无效的 DNS 服务器";
+$_lang["dnsrecordsmxheader"] = "MX 记录";
+$_lang["dnsrecordstablepref"] = "优先级";
+$_lang["dnsrecordstablemailserver"] = "邮件服务器";
+$_lang["dnserrorrecordinvalidpref"] = "无效的优先级";
+$_lang["dnserrorrecordinvalidmailserver"] = "无效的邮件服务器";
+$_lang["dnserrorrecordinvalidcname"] = "无效的别名";
+$_lang["dnsrecordstablealias"] = "别名";
+$_lang["dnsrecordscnameheader"] = "CNAME 记录";
+$_lang["dnsrecordstxtheader"] = "TXT 记录";
+$_lang["dnsrecordstablevalue"] = "值";
+$_lang["dnsrecordssrvheader"] = "SRV 记录";
+$_lang["dnsrecordstabletarget"] = "标签";
+$_lang["dnsrecordstableweight"] = "权重";
+$_lang["dnsrecordstableport"] = "端口";
+$_lang["dnsrecordstableprio"] = "优先级";
+$_lang["dnserrorrecordinvalidport"] = "无效的端口";
+$_lang["dnserrorrecordinvalidweight"] = "无效的权重";
+$_lang["dnserrorrecordinvalidprio"] = "无效的优先级";
+$_lang["dnserrorrecordinvalidtarget"] = "无效的标签";
+$_lang["dnserrorrecordinvaliddomus"] = "无效的域名，前缀必须是 _";
+$_lang["dnserrorrecordinvalidnodom"] = "你必须输入一个域名";
+$_lang["dnssuccessdomaindeleted"] = "域名已删除";
+$_lang["dnsdeletezoneboxtitle"] = "删除域名";
+$_lang["dnsdeletezoneboxmsg"] = "<strong>你确定要删除这个域名？</strong><p>所有的记录都将被删除，此域名也将不再属于本系统管理范围</p>";
+$_lang["dnsdeleterecordboxtitle"] = "删除记录";
+$_lang["dnsdeleterecordboxmsg"] = "<strong>你确定要删除此记录？</strong>";
+$_lang["vserverlabelsettingsnicemu"] = "网络模拟器";
+$_lang["vserversettingsupdatenicemusuccess"] = "网络模拟器已更新，需要重新启动才能生效";
+
+#<-- Added 1.11.00 -->#
+$_lang["optionsmenuheader"] = "选项";
+$_lang["optionsmenuwebv"] = "完整版本";
+$_lang["webversionboxtitle"] = "选项";
+$_lang["mobilelink"] = "手机版本";
+$_lang["webversionboxmsg"] = "<strong>你确定要切换到完整版本？</strong>";
+$_lang["vserverlabelsettingsdiskdriver"] = "硬盘设备";
+$_lang["vserversettingsupdateddsuccess"] = "硬盘设备已更新，需要重新启动才能生效";
+$_lang["vserverlabelsettingskeyboard"] = "VNC 主视图";
+$_lang["vserversettingsupdatekeyboardsuccess"] = "VNC 主视图已更新，需要重新启动才能生效";
+
+#<-- Added 1.12.00 -->#
+$_lang["reinstallpassword"] = "<strong>操作系统密码</strong> ";
+$_lang["consolesessioncancelbutton"] = "取消会话";
+$_lang["consolesessionbutton"] = "创建会话";
+$_lang["consolesessiontime"] = "会话时间";
+$_lang["consolesessionhour1"] = "1 小时";
+$_lang["consolesessionhour2"] = "2 小时";
+$_lang["consolesessionhour3"] = "3 小时";
+$_lang["consolesessionhour4"] = "4 小时";
+$_lang["consolesessionhour5"] = "5 小时";
+$_lang["consolesessionhour6"] = "6 小时";
+$_lang["consolesessionhour7"] = "7 小时";
+$_lang["consolesessionhour8"] = "8 小时";
+$_lang["consolesessioninfotext"] = "串行控制台仅用于应急使用，请勿作为普通 SSH 连接使用。";
+$_lang["consolesessionexpires"] = "过期";
+$_lang["vserverconsoleaccessadded"] = "会话已创建";
+$_lang["vserverconsoleaccessaddedfailed"] = "无法创建会话";
+$_lang["vserverconsoleaccessremoved"] = "会话已取消";
+$_lang["vserverconsoleaccessremovedfailed"] = "无法取消会话";
+
+#<-- Added 1.13.00 -->#
+$_lang["vserverkvmreconfiguresuccess"] = "重置网络";
+$_lang["vserverkvmreconfigureerror"] = "无法重置网络，未知的操作系统类型";
+$_lang["vserverkvmreconfigurebutton"] = "重置网络";
+$_lang["vserverpleasewait"] = "请稍等......";
+$_lang["vserverkvmreconfigureboxtitle"] = "重置网络";
+$_lang["vserverkvmreconfigureboxmsg"] = "你确定要重置该实例的网络？<br><br>该实例将会被关机，如果操作系统支持此操作，稍后您重新启动实例时网络将会自动设置";
+
+#<-- Added 1.13.01 -->#
+$_lang["vservertabdriver"] = "驱动程序";
+$_lang["vserverlabeldriver"] = "驱动程序";
+$_lang["vserverchangedriverbutton"] = "挂载";
+$_lang["vservernodriver"] = "未找到驱动程序";
+$_lang["vserverunmountdriverbutton"] = "恢复原始的 CDROM 媒体";
+$_lang["vserversettingsupdatedriversuccess"] = "驱动程序已插入至 CDROM 中";
+$_lang["vserversettingsupdatedrivererror"] = "无法将驱动程序插入 CDROM，请稍后重试";
+$_lang["vserversettingsupdatedriverunmountsuccess"] = "驱动程序已从 CDROM 中取出，并将原始媒体插入";
+$_lang["vserversettingsupdatedriverunmounterror"] = "无法取出驱动程序，光驱将会在实例重启时弹出";
+
+#<-- Added 1.14.00 -->#
+$_lang["controlpanelname"] = "VPS 管理面板";
+$_lang["vservermodelerrorheading"] = "发生错误";
+$_lang["nodelockedmessage"] = "对此虚拟服务器的访问受到限制。该节点目前正在维护。请稍后再试";
+$_lang["vservermodelerrorbutton"] = "确定";
+$_lang["menuhelp"] = "帮助";
+$_lang["modelsuccessheading"] = "成功";
+$_lang["vserverstateunknown"] = "未知";
+$_lang["vserverstateunknownmsg"] = "处理您的请求时出错。主机当前不可用。请稍后再试";
+$_lang["vserverrootpwdboxtitle"] = "修改系统密码";
+$_lang["vserverrootpwdboxmsg"] = "您确定要修改此实例的密码？";
+$_lang["vservervncpwdboxtitle"] = "修改 VNC 密码";
+$_lang["vservervncpwdboxmsg"] = "您确定要修改此实例的 VNC 密码？";
+$_lang["vserverhostnameboxtitle"] = "修改主机名";
+$_lang["vserverhostnameboxmsg"] = "您确定要修改此实例的主机名？";
+$_lang["settingselecton"] = "启用";
+$_lang["settingselectoff"] = "禁用";
+$_lang["vservernomediaavailable"] = "没有可用的光盘媒体";
+$_lang["vserverppptitle"] = "PPP";
+$_lang["vservertuntitle"] = "TUN/TAP";
+$_lang["vserverpppboxtitle"] = "修改 PPP 设定";
+$_lang["vserverpppboxmsg"] = "您确定要修改此实例的 PPP 设定？<br>实例将在稍后重启";
+$_lang["vservertunboxtitle"] = "修改 TUN/TAP 设定";
+$_lang["vservertunboxmsg"] = "您确定要修改此实例的 TUN/TAP 设定？<br>实例将在稍后重启";
+$_lang["vserverquickbackupboxmsg"] = "快速备份允许您创建实例的快照。<br><br>您确定要继续吗？";
+$_lang["vserverbackupbutton"] = "备份";
+
+#<-- Added 1.15.00 -->#
+$_lang["javaconsolebutton"] = "Java 控制台";
+$_lang["consolemessage1"] = "以下连接信息可以在任何本地 SSH 客户端中使用。对于 Windows，您可以下载免费的";
+$_lang["consolemessage2"] = "或者在 Mac/Linux 中打开终端并连接。";
+$_lang["consolemessage3"] = "另一个基于 Java 的控制台也可用，但是最新的 Java 更新可能会阻止控制台正常运行";
+$_lang["closewindowbutton"] = "关闭窗口";
+$_lang["vserverkvmrootpasswordboxtitle"] = "修改实例操作系统密码";
+$_lang["vserverkvmrootpasswordboxmsg"] = "如果实例是基于 Linux 或 Windows 并且可以识别分区，系统将尝试更改 root / Administrator 密码。<br> <br>实例将被关闭然后进行探测。如果成功，将返回新的 root / Administrator 密码。<br> <br>你确定要继续吗？";
+$_lang["vserverkvmrootpasswordchanged"] = "实例操作系统密码已更新，新的密码为：";
+$_lang["vserverkvmrootpasswordfailed"] = "实例的密码无法更改，操作系统可能不是 Linux，或者无法正确识别分区";
+$_lang["vserverinternalipassigned"] = "内部网络";
+$_lang["vservertabclock"] = "时钟";
+$_lang["vservertabvideo"] = "视频";
+$_lang["vserverlabelclock"] = "类型";
+$_lang["vserverlabelvideotype"] = "类型";
+$_lang["vserverlabelvideo3d"] = "3D 加速";
+$_lang["vserverlabelvideo2d"] = "2D 加速";
+$_lang["vnchtmlbutton"] = "HTML5 VNC 客户端";
+$_lang["vncjavabutton"] = "Java VNC 客户端";
+$_lang["html5vncnewwindow"] = "新标签页打开";
+
+#<-- Added 1.16.00 -->#
+$_lang["ipv6subnetdeleted"] = "IP 已删除";
+$_lang["ipv6subnetnonselected"] = "未选择 IP";
+$_lang["ipv6subnetadded"] = "IP 已添加";
+$_lang["ipv6subnetunavailable"] = "IP 不可用";
+$_lang["ipv6subnetalreadyexists"] = "IP 已存在";
+$_lang["ipv6subnetinvalid"] = "无效的条目";
+$_lang["ipv6subnetdetails"] = "子网信息";
+$_lang["ipv6subnetsubnet"] = "子网";
+$_lang["ipv6subnetaddip"] = "添加 IP";
+$_lang["ipv6subnetaddipbutton"] = "添加";
+$_lang["ipv6subnetaddresses"] = "IP 地址";
+$_lang["ipv6subnetdeletebutton"] = "删除选择";
+$_lang["ipv6subnetlabel"] = "IPv6 子网";
+$_lang["vserverlabelsettingspvhvmdriver"] = "PV-on-HVM 驱动程序";
+$_lang["ipv6subnetwaiting"] = "<strong>新的 IPv6 子网正在等待</strong>";
+$_lang["ipv6subnetwaitingbutton"] = "立即认领";
+$_lang["ipv6subnetmodelheader"] = "认领 IPv6 子网";
+$_lang["ipv6subnetmodelbody"] = "您的实例已分配 IPv6 子网以替换当前的单个 IPv6 地址。当您认领子网时，将在 14 天内从您的帐户中删除单个 IPv6 地址。<br><br>你确定要继续吗？";
+$_lang["ipv6subnetclaimsuccess"] = "您的 IPv6 子网已配置。要管理您的子网，请单击网络选项卡。";
+$_lang["ipv6subnetclaimerror"] = "无法配置您的 IPv6 子网。请稍后再试。";
+$_lang["noreinstallmessage"] = "你已达到本月的重新安装限制";
+$_lang["ipv6subnetgloballimit"] = "达到帐户限制";
+
+$_lang["rescueheader"] = "救援模式";
+$_lang["rescueenabled"] = "启用 - 救援模式可能需要几分钟才能在网络上访问";
+$_lang["rescuedisabled"] = "已禁用 - 实例现在重新启动到原始系统";
+$_lang["rescueenableerror"] = "在启用救援模式之前，您必须等待所有进程完成";
+$_lang["rescuedisableerror"] = "您必须等待所有进程完成才能禁用救援模式";
+$_lang["rescuedetailsheader"] = "SSH 连接详情";
+$_lang["rescuedetailsselect"] = "从下面的列表中选择一个内核。将创建一个小型设备并将其连接到可通过网络访问的实例。";
+$_lang["rescueenablemodalheader"] = "启用救援模式";
+$_lang["rescueenablemodalbody"] = "启用救援模式将重启实例。你确定要继续吗？";
+$_lang["rescuedisablemodalheader"] = "禁用救援模式";
+$_lang["rescuedisablemodalbody"] = "禁用救援模式将重启实例。你确定要继续吗？";
+$_lang["rescueip"] = "IP";
+$_lang["rescueport"] = "端口";
+$_lang["rescueuser"] = "账号";
+$_lang["rescuepassword"] = "密码";
+?>
